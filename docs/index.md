@@ -15,11 +15,11 @@ excerpt: >
   remains on the base).
 ---
 # Agora/Hachette Terminator T-800 Eye Modification
-An eye modification for the Agora/Hachette T-800 1:2 size Endoskeleton model. Having installed the epic modification from [Alex McPherson](https://t800controller.com/demos.html) to my T-800 endoskeleteon, I used the spare parts and an Arduino Nano controller to provide some fading eyes as broken remains of T-800s laying on the battlefield at the feet of my T-800.
+An eye modification for the Agora/Hachette T-800 1:2 size Endoskeleton model. Having installed the epic modification from [Alex McPherson](https://t800controller.com/demos.html) to my T-800 endoskeleton, I used the spare parts and an Arduino Nano controller to provide some fading eyes as broken remains of T-800s laying on the battlefield at the feet of my T-800.
 
-If you have the stock items without modification, it would be possible to modify the stock build to automatically move the eyes left and right randomly and to have them on permanently.
+If you have the stock items without modification, it would be possible to modify the stock build to automatically move the eyes left and right randomly and to have them on permanently. As I have modified my T-800 I am not able to show that.
 
-There is potentially some soldering to do depending how you want to proceed. I will provide a parts list I used, the wiring diagram and how to program an Arduino from the code in this GitHub repository.
+There is potentially some soldering to do depending how you want to proceed. I will provide a parts list I used, the wiring diagram and how to program an Arduino from the code.
 
 The start of this video shows the fading eyes effect added to the base of my T-800 Endoskeleton.
 
@@ -28,13 +28,13 @@ The start of this video shows the fading eyes effect added to the base of my T-8
 ## Instructions
 
 First some parts:
+
 * An Arduino Nano. I used one from [Ebay](https://www.ebay.co.uk/itm/Nano-V3-0-Arduino-ATmega328-5V-16MHz-CH340-UNSOLDERED-HEADERS-UK-Stock-/323825474433) but also ran some tests using an official one from somewhere like [The PI Hut](https://thepihut.com/products/arduino-nano) which is *much more expensive* (but has pins soldered).
 * Some resistors to protect each eyes from full voltage. The Arduino puts 5v to each IO pin which is too much for red LEDs which require about [1.8-2.1v](https://www.digikey.co.uk/en/resources/conversion-calculators/conversion-calculator-led-series-resistor). I used these 2.7K-ohm from [EBay](https://www.ebay.co.uk/itm/1-4W-Metal-Film-Resistors-1-186-values-available-20-Pack-UK-Seller-Free-P-P-/263898843941?).
 * A switch to control whether the Arduino Nano is on or off. This one on [Ebay](https://www.ebay.co.uk/itm/Small-Mini-Black-On-Off-Rocker-Switch-Rectangle-SPST-12V-All-Quantities-/251390016446) matches the main on-off switch of the base. If you are modifying the head, you can drive the Nano from the battery pack, or from one of the power modifications available.
 * Some AWG 24 wiring to connect things together. Either [multi-core](https://www.amazon.co.uk/dp/B07TT69PPV/) or [solid core](https://www.amazon.co.uk/gp/product/B08BZKVVH2/). These options provide much more than required, depending on your needs.
 * Some Heat Shrink tubing. I bought [this example on Amazon](https://www.amazon.co.uk/dp/B08N5246YB) which is good. Alternatives from Ebay might be cheaper. Again much more than you need, but could be useful depending on your needs.
 * Eyes and their servo either part of your head already (if you're modifying the head) or replacement parts from [issue 1](https://hachettepartworks.com/en-en/terminator-build-the-t800/the-terminator-build-the-t-800-issue-1/) and [issue 18](https://hachettepartworks.com/en-en/terminator-build-the-t800/the-terminator-build-the-t-800-issue-18/).
-
 
 You will also need a soldering iron and some solder to connect things together.
 
