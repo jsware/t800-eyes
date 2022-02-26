@@ -1,7 +1,7 @@
 # Subsite settings
 title: Terminator T800 Eyes Mod
 subtitle: "JSWare.io - The pain of low quality far outlasts the joy of low price"
-baseurl: "/terminator/t800-eyes-mod"
+baseurl: "/t800-eyes"
 
 url: &url "https://www.jsware.io"
 remote_theme: jsware/modified-mistakes
