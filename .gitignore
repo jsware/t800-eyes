@@ -1,32 +1,41 @@
-# Prerequisites
-*.d
+# Ignore docs files
+_gh_pages
+_site
+.ruby-version
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
 
-# Precompiled Headers
-*.gch
-*.pch
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.idea
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Komodo
+*.komodoproject
+.komodotools
 
-# Fortran module files
-*.mod
-*.smod
+# grunt-html-validation
+validation-status.json
+validation-report.json
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Folders to ignore
+node_modules
