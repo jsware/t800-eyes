@@ -83,7 +83,7 @@ Programs for Arduino are written in C/C++ programming language. Its the first la
 /**
  * @file t800-eyes.ino
  * @author John Scott
- * @brief Terminator T800 Flickering & Fading Eyes.
+ * @brief Terminator T-800 Flickering & Fading Eyes.
  * @version 1.0
  * @date 2022-01-10
  * 
