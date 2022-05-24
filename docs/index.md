@@ -23,7 +23,7 @@ There is potentially some soldering to do depending how you want to proceed. I w
 
 The start of this video shows the fading eyes effect added to the base of my T-800 Endoskeleton.
 
-{% include video id="UktblrKY3pc" provider="youtube" %}
+{% include video id="icEJ3l1Op4s" provider="youtube" %}
 
 ## Instructions
 
